@@ -63,7 +63,29 @@ figure {
    aside {
     flex: 1;
     
-   }
+   } 
+}
+@media (min-width: 768px) and (max-width: 999px) {
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-   
+    }
+    figure img{
+        max-width: 300px;
+        display: block;
+        
+    }
+
+    figure {
+        display: flex;
+        align-items: center;
+    
+        
+
+    }
+    aside{
+        width: 100%;
+    }
 }
