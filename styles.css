@@ -58,8 +58,9 @@ figure {
    }
    figure img{
     max-width: 100%;
-    height: auto;
     margin: 20px;
+    max-height: 100%;
+    height: auto;
    }
    main {
     flex: 2;
